@@ -9,6 +9,7 @@ Steps CV:
 2. save as CV.pdf and store in folder papers/, replacing the previous version
 
 Steps other papers:
+1. store as pdf directly in folder papers/
 
 
 Steps Git Bash:
@@ -16,7 +17,10 @@ Steps Git Bash:
 2. cd to AnneWebsite (cd /h/AnneWebsite)
 3. on each branch (git checkout master OR git checkout gh-pages), do:
 a. git status
-b. git add ...
-c. git commit ...
+b. git add papers
+c. git commit -m "which new pdf you put there or changed"
+
+Note: To link from the Website to the pdf, use the following url:
+https://annekatrinschrenker.github.io/AnneWebsite/papers/filename.pdf
 d. git push origin gh-pages OR git push if in master
 e. always end in master e.g. git checkout master 
