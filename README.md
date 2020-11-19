@@ -12,7 +12,7 @@ Steps:
 
 1. open GitBash and cd to the repository AnneWebsite: cd /h/AnneWebsite
 note: you should be on branch gh-pages, else: git checkout gh-pages
-2. git pull
+2. git pull origin gh-pages
 3. update the documents as desired e.g. store new pdf in folder papers
 4. git add papers
 5. git commit -m "which paper was added and date"
